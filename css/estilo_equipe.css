@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    display: inline-flex;
+}
+.logo img{
+    position: relative;
+    width: 300px;
+    height: 300px;
+
+}
+header{
+    position: absolute;
+    display: inline-flex;
+   border: 2px solid black;
+   top: 90px;
+   left: 450px;
+}
+h1{
+    display: inline-flex;
+    font-family:'Arima', cursive;
+    border: 2px solid rgb(107, 170, 253);
+    background-color: rgb(107, 170, 253);
+    width: 800px;
+    justify-content: center;
+    border-radius: 20px;
+ 
+}
+section{
+    display: inline-flex;
+    position: absolute;
+    right: 10px;
+    align-items: center;
+}
+#pesquisa{
+    display: inline-flex;
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.search{
+    display: inline-flex;
+    position: absolute;
+    width: 40px;
+    top: 15px;
+    right: 2px;
+    
+}
+
+.user{
+    display: inline-flex;
+    position: absolute;
+    width: 40px;
+    top: 15px;
+    right: 365px;
+   
+}
+.user:hover div{
+    
+
+}
